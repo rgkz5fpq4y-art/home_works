@@ -1,0 +1,5 @@
+s = int(input("Please input four-digit number: "))
+print((s%10000)//1000)
+print((s%1000)//100)
+print((s%100)//10)
+print(s%10)
